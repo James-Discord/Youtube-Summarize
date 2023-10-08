@@ -15,7 +15,7 @@ This YouTube video summarizer tool uses Nova AI (formerly known as GPT-3.5 Turbo
 Follow these steps to set up and use the YouTube Video Summarizer:
 
 # Clone this GitHub repository to your local machine:
-```git clone https://github.com/James-Discord/Youtube-Summarize```
+```git clone https://github.com/James-Discord/Youtube-Summarize.git```
 
 # Install the required Python libraries using pip:
 ```pip install flask requests pytube youtube-transcript-api```
