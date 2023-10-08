@@ -37,7 +37,7 @@ Replace VIDEO_ID with the actual video ID you want to summarize.
 The tool will return the summarized content in the predefined format.
 Structure of Summaries
 
-The generated summaries follow this structure:
+# The generated summaries follow this structure:
 
 Title
 The title of the YouTube video.
