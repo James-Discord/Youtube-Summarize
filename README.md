@@ -14,15 +14,15 @@ This YouTube video summarizer tool uses Nova AI (formerly known as GPT-3.5 Turbo
 
 Follow these steps to set up and use the YouTube Video Summarizer:
 
-# Clone this GitHub repository to your local machine:
+### Clone this GitHub repository to your local machine:
 ```git clone https://github.com/James-Discord/Youtube-Summarize.git```
 
-# Install the required Python libraries using pip:
+### Install the required Python libraries using pip:
 ```pip install flask requests pytube youtube-transcript-api```
 
-# Obtain your Nova AI API key by signing up at Nova AI. Replace 'NOVA_AI_KEY' in the nova_api_key variable within the code with your actual Nova AI API key.
+### Obtain your Nova AI API key by signing up at Nova AI. Replace 'NOVA_AI_KEY' in the nova_api_key variable within the code with your actual Nova AI API key.
 
-# Start the Flask application:
+### Start the Flask application:
 ```python app.py```
 
 
@@ -30,14 +30,14 @@ Follow these steps to set up and use the YouTube Video Summarizer:
 
 You can use curl to interact with the YouTube Video Summarizer as follows:
 
-# Summarize a YouTube video by providing its URL:
+### Summarize a YouTube video by providing its URL:
 ```curl -X POST -d "youtube_url=https://www.youtube.com/watch?v=VIDEO_ID" http://localhost:5000/```
 
 Replace VIDEO_ID with the actual video ID you want to summarize.
 The tool will return the summarized content in the predefined format.
 Structure of Summaries
 
-# The generated summaries follow this structure:
+### The generated summaries follow this structure:
 
 Title
 The title of the YouTube video.
