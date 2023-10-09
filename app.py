@@ -8,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 app = Flask(__name__)
 
 # Set your Nova AI API key
-nova_api_key = 'nv-0zUiZHXWA7WrizLPiKNCNonetC7Bh6ZFEQG0qb1npm3L'
+nova_api_key = 'NOVA_AI_KEY'
 
 def extract_video_id(url):
     parts = url.split("?")
